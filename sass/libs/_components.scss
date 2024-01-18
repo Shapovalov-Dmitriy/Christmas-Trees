@@ -1,0 +1,17 @@
+.title {
+    font-family: "Cormorant", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: $mainColor;
+    line-height: 1.1;
+    &__hero {
+        line-height: 1;
+        margin-bottom: 50px;
+    }
+}
+
+[class*="__container"] {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
